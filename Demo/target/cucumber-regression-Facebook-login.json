@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login functionality exists",
+        "description": "",
+        "id": "test-facebook;login-functionality-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9787304249,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the browser",
+            "match": {
+              "location": "CucumberReport.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5647559954,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Facebook website",
+            "match": {
+              "location": "CucumberReport.goToFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60412532,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login button should exists",
+            "match": {
+              "location": "CucumberReport.loginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4417227909,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter valid Facebook credentilas \"ramakrishna\" and \"Ram9446\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ramakrishna",
+                  "offset": 39
+                },
+                {
+                  "val": "Ram9446",
+                  "offset": 57
+                }
+              ],
+              "location": "CucumberReport.user_enter_valid_Facebook_credentilas_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Test Facebook",
+    "description": "",
+    "id": "test-facebook",
+    "keyword": "Feature",
+    "uri": "Features/Facebook.feature"
+  }
+]

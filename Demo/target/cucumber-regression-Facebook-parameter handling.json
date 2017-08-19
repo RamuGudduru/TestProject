@@ -1,0 +1,284 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5369163756,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the browser",
+            "match": {
+              "location": "CucumberReport.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3618470196,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Facebook website",
+            "match": {
+              "location": "CucumberReport.goToFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64414089,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login button should exists",
+            "match": {
+              "location": "CucumberReport.loginButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Login functionality with 01 user",
+        "description": "",
+        "id": "parameter-handling-in-cucumber;login-functionality-with-01-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2707013,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinations.FacebookMultiUser.user_enter_valid1(FacebookMultiUser.java:15)\r\n\tat ✽.When user enter valid1 \"ramakrishna\"(Features/ParameterHandling.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user enter valid1 \"ramakrishna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ramakrishna",
+                  "offset": 19
+                }
+              ],
+              "location": "FacebookMultiUser.user_enter_valid1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enter valid \"9951929446\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9951929446",
+                  "offset": 18
+                }
+              ],
+              "location": "FacebookMultiUser.user_enter_valid(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3716968535,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the browser",
+            "match": {
+              "location": "CucumberReport.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5753993294,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Facebook website",
+            "match": {
+              "location": "CucumberReport.goToFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51107387,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login button should exists",
+            "match": {
+              "location": "CucumberReport.loginButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Login functionality with 02 user",
+        "description": "",
+        "id": "parameter-handling-in-cucumber;login-functionality-with-02-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 284814,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinations.FacebookMultiUser.user_enter_valid1(FacebookMultiUser.java:15)\r\n\tat ✽.When user enter valid1 \"narmadha1\"(Features/ParameterHandling.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "user enter valid1 \"narmadha1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "narmadha1",
+                  "offset": 19
+                }
+              ],
+              "location": "FacebookMultiUser.user_enter_valid1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user enter valid \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password123",
+                  "offset": 18
+                }
+              ],
+              "location": "FacebookMultiUser.user_enter_valid(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7267473963,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the browser",
+            "match": {
+              "location": "CucumberReport.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3589776881,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Facebook website",
+            "match": {
+              "location": "CucumberReport.goToFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 289523166,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d60.0.3112.90)\n  (Driver info: chromedriver\u003d2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 32 milliseconds\nBuild info: version: \u00272.48.2\u0027, revision: \u002741bccdd\u0027, time: \u00272015-10-09 19:59:12\u0027\nSystem info: host: \u0027admin-PC\u0027, ip: \u0027192.168.1.100\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_73\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir\u003dC:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir7420_5438}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d60.0.3112.90, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: 70fb27b75a6b8049d08a949614cf26d2\n*** Element info: {Using\u003did, value\u003du_0_t}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)\r\n\tat stepDefinations.CucumberReport.loginButton(CucumberReport.java:30)\r\n\tat ✽.Then Login button should exists(Features/ParameterHandling.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Login button should exists",
+            "match": {
+              "location": "CucumberReport.loginButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login functionality with 03 user",
+        "description": "",
+        "id": "parameter-handling-in-cucumber;login-functionality-with-03-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user enter valid1 \"sivasrinu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sivasrinu",
+                  "offset": 19
+                }
+              ],
+              "location": "FacebookMultiUser.user_enter_valid1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user enter valid \"amazon456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amazon456",
+                  "offset": 18
+                }
+              ],
+              "location": "FacebookMultiUser.user_enter_valid(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Parameter handling in cucumber",
+    "description": "",
+    "id": "parameter-handling-in-cucumber",
+    "keyword": "Feature",
+    "uri": "Features/ParameterHandling.feature"
+  }
+]
