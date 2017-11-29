@@ -1,0 +1,14 @@
+package runners;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TCRunner01 {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
